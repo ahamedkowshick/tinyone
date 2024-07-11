@@ -1,0 +1,144 @@
+/* start framework */
+@import url('https:fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a, a:hover{
+    list-style-type: none;
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6, a, ul, ol, input, button, p{
+    margin: 0;
+    padding: 0;
+    color: #010101;
+}
+.text-centre{
+    text-align: center;
+}
+body{
+    font-size: 17px;
+    color: #010101;
+    font-family: 'PT Sans' sans-serif;
+}
+.container{
+    max-width: 960px !important;
+}
+/* background color */
+.bg-primary{
+    background-color: #fcdb00 !important;
+}
+.bg-secondary{
+    background-color: #000 !important;
+}
+.text-primary{
+    color: #fcdb00 !important;
+}
+.btn{
+    color: #010101;
+    padding: 0.5rem, 1.5rem;
+    margin-left: 10px;
+}
+.btn-warning{
+    color: #010101;
+    background-color: #fcdb00;
+    border-color: #fcdb00;
+}
+.btn-warning{
+    background-color: #fcdb00;
+}
+.btn-warning:focus .btn-warning:active{
+    border-color: #fcdb00;
+}
+
+/* header start */
+header{
+    padding: 60px 0;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    font-weight: 600px;
+    font-size: 20px;
+    color: #010101;
+   
+}
+.navbar-nav .nav-link{
+    color: #010101;
+    font-weight: 600px;
+    font-size: 20px;
+    padding-left: 45px;
+}
+.carousel-left h6{
+    color: #313841;
+    font-size: 19px;
+    margin-right: 160px;
+}
+.carousel-left p{
+    color: #555555;
+    margin-right: 113px;
+}
+.carousel-left i.fa{
+    font-size: 35px;
+    margin-right: 20px;
+}
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+
+}
+/* header end */
+/* tinyone-features start */
+.tinyone-features{
+    padding: 120px 0;
+}
+.features-info p{
+    color: #313841;
+    border-bottom: 1px solid #313841;
+    padding: 15px 136px;
+}
+.features-icon img{
+    position: absolute;
+}
+.features-icon .features-text{
+    position: relative;
+    margin-left: 79px;
+    margin-top: 70px;
+}
+.features-icon .features-text p{
+    color: #898989;
+    margin-top: 15px;
+}
+
+/* tinyone-features end */
+/* support start*/
+.support{
+    padding: 100px 0;
+}
+.support-info{
+    margin: 0 130px;
+}
+.support-info p{
+    color: #898989;
+    
+}
+.support-social  i.fa{
+    color: #fcdb00;
+    font-size: 40px;
+    padding: 0 10px;
+}
+/*support end*/
+/* footer start*/
+footer{
+    padding-bottom: 70px;
+}
+footer ul{
+    color: white;
+}
+footer ul li a{
+    color: white;
+}
+footer ul li a:hover{
+    color: #fcdb00;
+}
+/*footer end*/
